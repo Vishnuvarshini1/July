@@ -8,6 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class ActionClass {
 public static void main(String[] args) throws InterruptedException {
+	
 	WebDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	Thread.sleep(2000);
